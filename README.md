@@ -1,89 +1,61 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+O Finanças a Dois é um aplicativo de organização de finanças pessoais via IA Conversacional, desenvolvido especificamente para recém-casados que desejam controlar o orçamento sem a complexidade de planilhas ou formulários manuais.
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+O Problema
+As ferramentas tradicionais de controle financeiro exigem muita digitação, categorização manual e conhecimento técnico prévio, o que gera alto atrito e faz com que a maioria dos usuários desista em poucas semanas.
 
-## ✨ O que é Vibe Coding
+A Solução
+Uma experiência totalmente fluida baseada em chat. O usuário apenas conversa com um Agente Financeiro Inteligente em linguagem natural — seja por texto ou áudio (ex: "Gastei 45 reais no mercado com lanche"). A IA registra, categoriza automaticamente, calcula metas de curto, médio e longo prazo e sugere o fundo de emergência ideal.
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+Diferenciais Competitivos
+Zero Fricção (Interface Conversacional): Elimina a necessidade de preencher campos engessados; tudo é resolvido em um papo simples.
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+Orientação Proativa: O Agente Financeiro não apenas armazena dados, mas envia dicas personalizadas e alertas de desvio de orçamento de forma educativa e sem julgamentos.
 
-## 🎯 Desafio
+Design Universal e Acessível: Interface limpa construída sob o método de cores 60-30-10 (fundo neutro, estrutura em azul de alta legibilidade e destaques em laranja coral para CTAs), totalmente adaptada para iniciantes e com rigorosos padrões de acessibilidade (WCAG).
+Finanças a Dois é o seu planejador financeiro no WhatsApp/App, que transforma conversas do dia a dia em clareza, metas alcançáveis e economia real, sem complicação.
+<img width="1432" height="768" alt="image" src="https://github.com/user-attachments/assets/94810c94-65b7-45a9-a717-981eb36ce1ee" />
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+Interações:
+1 - Crie a base de um PWA de Organização de Finanças Pessoais baseado em IA Conversacional (Interface via Chat), desenhado para recém-casados.
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+Funcionalidades e Telas essenciais a implementar:
+1. Design System Acessível (Regra 60-30-10):
+   - Fundo neutro limpo (Branco Gelo / modo escuro Azul Noite).
+   - Estrutura e tipografia em Azul Marinho/Cinza escuro para máxima legibilidade (Inter / Plus Jakarta Sans, mínimo 16px).
+   - Destaque em Laranja Coral para CTAs, microfone e balões ativos.
+   - Conformidade WCAG AA/AAA, alvos de toque grandes (mínimo 48px), e dupla codificação (texto + ícones, nunca apenas cor).
+     
+2. Onboarding Conversacional ("Primeiros Passos a Dois"):
+   - Coleta de renda líquida familiar, custos fixos e cálculo em tempo real da Reserva de Emergência Ideal (3 a 6 meses de tranquilidade).
+   - Primeira meta de curto prazo e chips de resposta rápida.
+  
+     
+3. Hub Central - Chat de Registro Rápido:
+   - Registro em linguagem natural por texto e simulação/gravação de áudio (ex: "Gastei 48 reais no almoço de hoje com suco").
+   - Reconhecimento inteligente extraindo valor, categoria e descrição com confirmação inline e botão de desfazer (5 segundos).
+   - Respostas da IA no tom acolhedor, empático e sem julgamentos ("Fin").
+   - Barra superior com saldo diário/mensal seguro ("Livre para gastar hoje").
+  
+     
+4. Painel de Metas Dinâmicas & Reserva:
+   - Cards visuais com barra de progresso contrastada.
+   - Sugestão de economia diária/mensal ("Guardando R$ 14/dia vocês chegam lá 2 semanas antes").
+   - Registro de aportes.
+  
+     
+5. Visão Geral Enxuta (Insights Práticos):
+   - Entradas vs. Saídas, destaque do maior gasto da semana e resumo prático para o casal.
+   - Alternância fluida entre as visões/telas no estilo mobile-first/PWA.
+2 - A reserva de emergência deve ser um menu a parte, e deve ser sugerir sempre uma parcela baixa, média e alta
+As metas podem ser alteradas(editadas), mudando o tempo(aumentando ou reduzindo)
+O app tem que receber sempre a entrada mensal do casal e depois fazer as sugestões de quanto o casal deve encaminhar para as metas e o fundo de emergência
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+Resultado
 
-## 🪄 Etapas do Desafio
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+https://github.com/user-attachments/assets/ee60615b-8165-4b4c-9aea-5fc86df97eaa
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+O O vibe coding (ou "programação por vibe") é um termo que descreve uma nova forma de criar softwares onde o ser humano assume o papel de diretor de produto ou arquiteto, enquanto a Inteligência Artificial escreve quase todo o código.
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+Em vez de programar linha por linha, o desenvolvedor (ou criador) interage com a IA através de conversas em linguagem natural, guiando o projeto pelo "ritmo" (vibe), revisando os resultados e ajustando a direção conforme o sistema vai sendo construído em tempo real.
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
-
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
-
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
-
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
-
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-```
-
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
-
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
-
-### 2. Explorando o Lovable na Prática
-
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
-
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
-
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
-
-### 3. Entregando o Desafio na DIO
-
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
-
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
-
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
-
-## 💬 Conclusão
-
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
